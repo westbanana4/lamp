@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    color: whitesmoke;}
+
+.rope{
+    background-color: brown;
+    height: 5vh;
+    width: 1vh;
+    margin-top: 1vh;
+    border-radius: 30%;
+    box-shadow: inset 0px 0PX 10PX black;
+    
+}
+
+.main{
+background-color: rgb(128, 128, 128);
+box-shadow: inset 10px 15px 50px black;
+height: 5vh;
+width: 5vh;
+border-radius: 40% 40% 0% 0%;
+}
+
+.main2 {
+    background-color: silver;
+    height: 5vh;
+    width: 20vh;
+    border-radius: 40% 40% 5% 5%;
+    box-shadow: inset 10px 15px 50px black;
+
+}
+
+.lamp{
+    background-color: grey;
+    height: 3vh;
+    width: 6vh;
+    border-radius: 0% 0% 50% 50%;
+    box-shadow: inset 0px 10px 10px black;
+    transition: 0.5s;
+}
+
+
+
+.light{
+    transition: 0.5s;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    filter: blur(50px);
+    transition: 0.5s;
+    background-color: yellow;
+    opacity: 0%;
+    
+}
+
+.button-on{
+    padding: 0px 40px;
+    font-size: 3vh;
+    border-radius: 10% 10%;
+    margin-top: 90px;
+    color: black;
+    height: auto;
+    width: auto;
+    background-color: white;
+    box-shadow: inset 5px  10px 30px black;
+    cursor: pointer;
+
+}
+.button-off{
+    margin-top: 10px;
+    padding: 0px 35px;
+    font-size: 3vh;
+    border-radius: 10% 10%;
+    color: black;
+    height: auto;
+    width: auto;
+    background-color: white;
+    box-shadow: inset 5px  10px 30px black;
+    cursor: pointer;
+}
