@@ -5,10 +5,6 @@ const buttonOff = document.getElementById('wsx');
 
 
 
-// function addStyles () {
-//     button.style.backgroundColor
-// }
-
 
 buttonOn.addEventListener('click', function () {
     button.style.backgroundColor = 'yellow';
